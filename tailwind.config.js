@@ -21,25 +21,46 @@ module.exports = {
         "hero-hps": "url('../src/Assets/img/bg2.jpg')",
       },
       padding: {
-        50: "12rem",
+        12: "4rem",
+        15: "15rem",
+        20: "20rem",
+        25: "25rem",
+        30: "30rem",
+        35: "35rem",
+        40: "40rem",
+        watch: ".8rem",
       },
       borderRadius: {
         radius: "3rem",
       },
       borderWidth: {
         30: "30rem",
+        6: "6.5rem",
         1: "0.2rem",
       },
+      scale: {
+        1: "1.02",
+      },
+      spacing: {
+        navigate: "6.45rem",
+      },
       width: {
+        15: "15rem",
+        20: "20rem",
+        25: "25rem",
         30: "30rem",
         35: "35rem",
         40: "40rem",
         45: "45rem",
         55: "55rem",
+        watch: "13rem",
       },
+
       height: {
         hero: "70vh",
         height: "60vh",
+        30: "30rem",
+        watch: "8rem",
         popular: "35rem",
         trend: "18rem",
       },
