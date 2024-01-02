@@ -53,6 +53,7 @@ module.exports = {
         40: "40rem",
         45: "45rem",
         55: "55rem",
+        70: "80rem",
         watch: "13rem",
       },
 
