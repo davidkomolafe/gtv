@@ -30,8 +30,29 @@ html {
 @tailwind components;
 @tailwind utilities;
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 .linear-bg {
   background: linear-gradient(262deg, rgba(0, 0, 0, 0), rgba(86, 0, 0, 0.906));
+}
+
+.linear-p {
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(0, 0, 0, 0.664),
+    black
+  );
+}
+.linear-l {
+  background: linear-gradient(
+    to left,
+    transparent,
+    rgba(0, 0, 0, 0.664),
+    black
+  );
 }
 
 .transit {

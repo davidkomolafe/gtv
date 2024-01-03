@@ -6,7 +6,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 const Film = () => {
   return (
-    <div className="h-full bg-backgroundColor  ">
+    <div className="h-full bg-popular  ">
       <Header />
       <div className="flex p-16 w-full relative">
         <div className="h-height w-30 bg-backgroundColorFadeL fixed rounded-xl z-10 text-textColor px-8 text-2xl flex flex-col">

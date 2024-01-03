@@ -12,7 +12,7 @@ module.exports = {
         primary: "#F5F3F3",
         accent: "#C11515",
         header: "#101010",
-        hero: "#171717",
+        hero: "#151515",
         popular: "#2A2D34",
       },
       backgroundImage: {

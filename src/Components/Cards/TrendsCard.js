@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Rating from "./Rating";
 
 const TrendsCard = ({ movie }) => {
   return (
@@ -14,7 +15,9 @@ const TrendsCard = ({ movie }) => {
           <h3 className="w-3/5">{movie.name}</h3>
           <h4 className="text-right ">HD</h4>
         </div>
-        <p className="absolute bottom-0 p-6 text-2xl">Rating</p>
+        <p className="absolute bottom-0 p-6 text-2xl text-accent flex gap-2">
+          <Rating value={movie.rate} />
+        </p>
       </Link>
     </div>
   );
