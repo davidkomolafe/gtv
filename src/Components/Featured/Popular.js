@@ -16,7 +16,7 @@ const Popular = () => {
   const [nextEl, setNextEl] = useState(null);
   const [prevEl, setPrevEl] = useState(null);
   const classNames =
-    "hover:bg-hover transition text-3xl rounded w-28 flex-col h-popular flex items-center justify-center text-textColor h-full bg-black px-14 bg-opacity-90 ";
+    "hover:text-accent text-3xl w-28 flex-col h-popular flex items-center justify-center text-textColor h-full bg-black px-14 bg-opacity-90 ";
   return (
     <div className="">
       <h3 className="text-textColor text-3xl  font-semibold ml-14 mt-5">
@@ -28,7 +28,7 @@ const Popular = () => {
           slidesPerView={7.5}
           spaceBetween={1}
           loop={true}
-          speed={3000}
+          speed={1000}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
           modules={[Navigation, Autoplay]}
@@ -65,7 +65,6 @@ const Popular = () => {
                 </div>
               </div>
             </SwiperSlide>
-            // <PopularCard key={index} movie={movie} />
           ))}
         </Swiper>
         <div className="w-full absolute top-0 flex justify-between items-center z-50 flex-row ">
